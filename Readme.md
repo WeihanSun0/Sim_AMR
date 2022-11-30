@@ -15,6 +15,23 @@ Goal : Move the bot to the flag block.
 
 Fail : Move to the block with any barries.
 
+## Runtime Environment
+Python3.x with numpy and pygame is required. (pygame is not available now for python above 3.10)<br>
+
+1. Download the code to <sim_path>
+2. Open terminal and change to the current path to <sim_path>
+```
+cd <sim_path>
+```
+3. Install the required packages in the terminal.
+```
+pip install numpy pygame
+```
+4. Run the script. \<Username> is optional.
+
+```
+python main.py <Username>
+```
 
 
 ## Control
